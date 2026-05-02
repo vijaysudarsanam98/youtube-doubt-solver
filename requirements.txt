@@ -1,5 +1,6 @@
 fastapi
 uvicorn[standard]
 youtube-transcript-api
+requests
 google-generativeai
 python-dotenv
