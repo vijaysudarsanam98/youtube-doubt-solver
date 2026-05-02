@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Doubt Solver",
+  "version": "0.1.0",
+  "description": "Ask Gemini about the current moment in any YouTube video.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_title": "Ask about this moment",
+    "default_popup": "popup.html"
+  }
+}
